@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Music</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/15225c608c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <audio src="" id="audio"></audio>
+    <div class="music-player">
+        <h1 class="music-name">Nevada</h1>
+        <p class="artist-name">ViceTone x Cozi</p>
+        <div class="disk">
+        </div>
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <span class="current-time">00:00</span>
+            <span class="song-duration">00:00</span>
+        </div>
+        <div class="controls">
+            <button class="pre-btn btn">
+                <i style="font-size: 32px;" class="fa-sharp fa-solid fa-backward"></i>
+            </button>
+            <button style="margin: 0 15px 0 15px;" class="play-btn">
+                <i style="font-size: 32px;" class="fa-sharp fa-solid fa-play play"></i>
+            </button>
+            <button class="next-btn btn">
+                <i style="font-size: 32px;" class="fa-sharp fa-solid fa-forward"></i>
+            </button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
